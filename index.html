@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="gamerStyles.css">
+  </head>
+  <body>
+    <!---text--->
+    <h1>Personalized Gamer Tag Generator</h1>
+    <p>Instead of using spaces, use underscores so you can copy/paste it in an actual game.</p>
+    <hr>
+    <p>A Hobby of Yours (must end in "ing")</p>
+    <div align="center">
+      <input type="text" id="txtHobby" name="hobby"   size="10">
+    </div>
+
+    <hr>
+
+    <p>A Color that You Like</p>
+    <div align="center">
+      <input type="text" id="txtColor" name="color"   size="10">
+    </div>
+
+    <hr>
+
+    <p>Your Favorite Animal or Mythical Beast</p>
+    <div align="center">
+      <input type="text" id="txtAnimal" name="animal"   size="10">
+    </div>
+
+    <hr>
+
+    <p>Your Favorite Food</p>
+    <div align="center">
+      <input type="text" id="txtVeggie" name="veggie"   size="10"></div>
+
+    <hr>
+
+    <p> A Force of Nature</p>
+    <div align="center">
+      <input type="text" id="txtNature" name="nature"   size="10"></div>
+    <hr>
+    <p>How your Friends would Describe You</p>
+    <div align="center">
+      <input type="text" id="txtFriends" name="friends"   size="10"></div>
+    <hr>
+    <!---functions--->
+    <div align="center"><button type="button" onclick="buttonclick()" class="block">Submit</button></div>
+    <script>
+    function buttonclick() {
+      var hobby=document.getElementById("txtHobby").value;
+      var color=document.getElementById("txtColor").value;
+      var animal=document.getElementById("txtAnimal").value;
+      var veggie=document.getElementById("txtVeggie").value;
+      var nature=document.getElementById("txtNature").value;
+      var friends=document.getElementById("txtFriends").value;
+      var r=document.getElementById("result");
+      var r2=document.getElementById("result2");
+      var r3=document.getElementById("result3");
+      var r4=document.getElementById("result4");
+      var r5=document.getElementById("result5");
+      var r6=document.getElementById("result6");
+      var r7=document.getElementById("result7");
+      var r8=document.getElementById("result8");
+      var r9=document.getElementById("result9");
+      r.innerHTML=hobby + "_" + animal;
+      r2.innerHTML=hobby + "_" + veggie;
+      r3.innerHTML=hobby + "_" + nature;
+      r4.innerHTML=color + "_" + animal;
+      r5.innerHTML=color + "_" + veggie;
+      r6.innerHTML=color + "_" + nature;
+      r7.innerHTML=friends + "_" + animal;
+      r8.innerHTML=friends + "_" + veggie;
+      r9.innerHTML=friends + "_" + nature;
+
+
+}
+</script>
+
+    <div id="result"></div>
+    <br>
+    <div id="result2"></div>
+    <br>
+    <div id="result3"></div>
+    <br>
+    <div id="result4"></div>
+    <br>
+    <div id="result5"></div>
+    <br>
+    <div id="result6"></div>
+    <br>
+    <div id="result7"></div>
+    <br>
+    <div id="result8"></div>
+    <br>
+    <div id="result9"></div>
+
+    </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  background: white;
+}
+p {
+  color: black;
+  font-family:monospace;
+  font-size: 25px;
+  text-align:center;
+}
+h1 {
+  color:black;
+  font-weight: medium;
+  font-family:monospace;
+  text-align:center;
+  font-size: 50px;
+}
+.block {
+  margin-top:50px;
+  display: block;
+  width: 30%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 15px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
